@@ -1,8 +1,6 @@
-@import "tailwindcss";
-
-@theme {
-  --font-sans: "Inter", "SF Pro Display", "SF Pro Text", ui-sans-serif, system-ui, sans-serif;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 html,
 body,
@@ -14,6 +12,7 @@ body {
   margin: 0;
   background: #f7f7f8;
   color: #1c1c20;
+  font-family: "Inter", "SF Pro Display", "SF Pro Text", ui-sans-serif, system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }

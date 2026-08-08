@@ -35,7 +35,7 @@ const game = {
         </p>
       </div>
 
-      <!-- Replace the #download link with the game's smart App Store / Google Play link when it is ready. -->
+      <!-- Replace the #download link with the game's App Store link when it is ready. -->
       <a
         :href="`#${game.name.toLowerCase().replaceAll(/[^a-z0-9]+/g, '-')}`"
         class="group flex min-h-32 items-center gap-5 rounded-[28px] border border-white/80 bg-white px-6 py-5 shadow-[0_3px_4px_rgba(18,18,23,0.02),0_12px_28px_rgba(18,18,23,0.07)] transition duration-300 ease-out hover:-translate-y-1 hover:shadow-[0_5px_8px_rgba(18,18,23,0.04),0_18px_34px_rgba(18,18,23,0.1)] focus-visible:outline-3 focus-visible:outline-offset-4 focus-visible:outline-violet-500 sm:min-h-36 sm:gap-6 sm:px-8"
@@ -50,7 +50,7 @@ const game = {
             {{ game.name }}
           </span>
           <span class="mt-2 block text-sm font-medium text-[#898990] sm:text-base">
-            Tap to choose your store
+            Tap to open in the App Store
           </span>
         </span>
         <svg
@@ -71,7 +71,7 @@ const game = {
         :id="game.name.toLowerCase().replaceAll(/[^a-z0-9]+/g, '-')"
         class="mx-auto mt-6 max-w-sm text-center text-sm leading-relaxed text-[#96969d]"
       >
-        Available soon on the App Store and Google Play.
+        Available soon on the App Store.
       </p>
     </section>
   </main>

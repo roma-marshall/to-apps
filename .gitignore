@@ -1,0 +1,9 @@
+node_modules/
+.nuxt/
+.output/
+.data/
+
+# Local environment files
+.env
+.env.*
+!.env.example
