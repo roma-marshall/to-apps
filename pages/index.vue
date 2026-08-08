@@ -65,7 +65,7 @@ const games = [
               :loading="index === 0 ? 'eager' : 'lazy'"
               :fetchpriority="index === 0 ? 'high' : 'low'"
               decoding="async"
-              class="size-full rounded-[20px] object-cover shadow-[0_8px_18px_rgba(49,18,137,0.2)] sm:rounded-[23px]"
+              class="size-full rounded-[20px] object-cover shadow-[0_8px_18px_rgba(24,24,27,0.16)] sm:rounded-[23px]"
             >
           </picture>
           <span class="min-w-0 flex-1">
